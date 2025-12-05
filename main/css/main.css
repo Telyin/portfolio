@@ -347,11 +347,19 @@ body {
     border-radius: 8px;
     padding: 40px;
 }
-.Portfolio .pofol_box h3 {
+.Portfolio .pofol_box .pofol_txt {
+    display: flex;
+    gap: 0 24px;
+    align-items: center;
+}
+.Portfolio .pofol_box .pofol_txt h3 {
     font-size: 62px;
     font-weight: 700;
     color: #fff;
     margin-bottom: 32px;
+}
+.Portfolio .pofol_box .pofol_txt span {
+    font-size: 15px;
 }
 .Portfolio .pofol_box ul {
     display: flex;
