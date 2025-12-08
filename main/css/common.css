@@ -52,19 +52,5 @@ body {
     margin: 0 auto; /* 가운데 정렬 */
 }
 #wrap {
-    overflow-x: hidden;
-}
-@media screen and (max-width:1260px){
-    body {
-        overflow-x: auto;
-    }
-
-    #wrap {
-        overflow: visible;  /* ← 중요! */
-        margin: 0 auto;
-    }
-
-    .wrapper {
-        width: 1260px;  /* 고정 유지 */
-    }
+    overflow: hidden;
 }
